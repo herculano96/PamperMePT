@@ -16,6 +16,7 @@ public class CriticsActivity {
         this.idvisit = idvisit;
         this.idclient = idclient;
         this.description = description;
+
     }
 
     public int getIdvisit() {
