@@ -13,4 +13,9 @@
     tools:context="usuario.app.pamperme.NavigationDrawerActivity"
     tools:showIn="@layout/app_bar_navigation_drawer">
 
+    <RelativeLayout
+        android:id="@+id/layout1_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </RelativeLayout>
