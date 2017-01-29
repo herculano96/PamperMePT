@@ -5,7 +5,7 @@
 
 
     <TextView
-        android:id="@+id/signup_text1"
+        android:id="@+id/signup_text0"
         android:text="Sign Up"
         android:textSize="35dp"
         android:layout_marginTop="35dp"
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/signup_text2"
+        android:id="@+id/signup_text1"
         android:textSize="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/signup_text3"
+        android:id="@+id/signup_text2"
         android:hint="Your name here"
         android:layout_marginTop="14dp"
         android:layout_marginLeft="20dp"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/signup_text4"
+        android:id="@+id/signup_text3"
         android:textSize="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/signup_text5"
+        android:id="@+id/signup_text4"
         android:hint="Your email here"
         android:inputType="textEmailAddress"
         android:layout_marginTop="24dp"
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/signup_text6"
+        android:id="@+id/signup_text5"
         android:textSize="30dp"
         android:text="Password:"
         android:layout_marginTop="24dp"
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/signup_text7"
+        android:id="@+id/signup_text6"
         android:hint="Your password here"
         android:inputType="textPassword"
         android:layout_marginTop="24dp"
