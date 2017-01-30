@@ -25,7 +25,6 @@
     <EditText
         android:id="@+id/signup_text2"
         android:hint="Your name here"
-        android:layout_marginTop="14dp"
         android:layout_marginLeft="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -33,7 +32,6 @@
     <TextView
         android:id="@+id/signup_text3"
         android:textSize="30dp"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:text="Email"
         android:layout_width="match_parent"
@@ -43,7 +41,6 @@
         android:id="@+id/signup_text4"
         android:hint="Your email here"
         android:inputType="textEmailAddress"
-        android:layout_marginTop="24dp"
         android:layout_marginLeft="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -52,7 +49,7 @@
         android:id="@+id/signup_text5"
         android:textSize="30dp"
         android:text="Password:"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="2dp"
         android:layout_marginLeft="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -61,8 +58,18 @@
         android:id="@+id/signup_text6"
         android:hint="Your password here"
         android:inputType="textPassword"
-        android:layout_marginTop="24dp"
         android:layout_marginLeft="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_below="@+id/login_text6"
+        android:layout_centerHorizontal="true" />
 </LinearLayout>
